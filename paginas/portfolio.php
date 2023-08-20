@@ -23,22 +23,22 @@
 
         <div class="col">
           <div class="card" style="width: 18rem;">
-            <img src="/portfolio/imagenes/crudimgListar.png" class="card-img-top" alt="...">
+            <img src="/portfolio/imagenes/crudphpNuevaReceta.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Crud con imágenes</h5>
-              <p class="card-text">Desarrollado en Laravel Jetstream y Tailwind CSS.</p>
-              <a href="/portfolio/paginas/crudimg.php" class="btn btn-primary">Ir al proyecto</a>
+              <h5 class="card-title">CRUD PHP MySQL</h5>
+              <p class="card-text">Gestión de recetas con PHP y Bootstrap</p>
+              <a href="/crud_php/index.php" class="btn btn-primary">Ir al proyecto</a>
             </div>
           </div>
         </div>
-
+        
         <div class="col">
           <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="/portfolio/imagenes/crudimgListar.png" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Proyecto 2</h5>
-              <p class="card-text">Descripción</p>
-              <a href="#" class="btn btn-primary">Ir al proyecto</a>
+              <h5 class="card-title">CRUD con imágenes</h5>
+              <p class="card-text">Desarrollado en Laravel Jetstream y Tailwind CSS.</p>
+              <a href="/portfolio/paginas/crudimg.php" class="btn btn-primary">Ir al proyecto</a>
             </div>
           </div>
         </div>

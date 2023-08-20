@@ -25,8 +25,8 @@
             Portfolio
           </a>
           <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/crud_php/index.php">CRUD PHP MySQL2</a></li>
             <li><a class="dropdown-item" href="/portfolio/paginas/crudimg.php">CrudImg</a></li>
-            <li><a class="dropdown-item" href="#">Proyecto 2</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Otros proyectos</a></li>
           </ul>
