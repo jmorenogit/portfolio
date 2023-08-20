@@ -25,21 +25,21 @@
 
       <br>
       
-      <form action="mailto:jomanugo@gmail.com" method="post" enctype="text/plain">
+      <form action="enviarMail.php" method="POST">
           <div class="mb-3">
             <label for="emailInput" class="form-label">Email</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+            <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="name@example.com">
           </div>
           <div class="mb-3">
             <label for="asuntoInput" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="asuntoInput" placeholder="escriba el asunto aquí...">
+            <input type="text" class="form-control" id="asuntoInput" name="asuntoInput" placeholder="escriba el asunto aquí...">
           </div>
           <div class="mb-3">
             <label for="mensajeInput" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensajeInput" rows="3" placeholder="escriba su mensaje aquí..."></textarea>
+            <textarea type="text" class="form-control" id="mensajeInput" name="mensajeInput" rows="3" placeholder="escriba su mensaje aquí..."></textarea>
           </div>
           <div class="col-12">
-            <button class="btn btn-primary" type="submit">Submit form</button>
+            <button class="btn btn-primary" type="submit">Enviar</button>
           </div>
       </form>
 
