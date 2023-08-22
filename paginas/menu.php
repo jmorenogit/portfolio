@@ -32,9 +32,6 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/portfolio/paginas/cv.php">CV</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/portfolio/paginas/contacto.php">Contacto</a>
         </li>
     </div>

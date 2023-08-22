@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Mensaje enviado</title>
   </head>
   <body>
@@ -21,7 +22,9 @@
         $correo = $_POST['emailInput'];
         $titulo = $_POST['asuntoInput'];
         $mensaje = $_POST['mensajeInput'];
-        $cabecera = "From:" . $correo;
+        $cabecera = "From:" . $correo . "\r\n";
+        $cabecera .= "Mime-Version: 1.0\r\n";
+        $cabecera .= "Content-Type: text/plain;\r\n";
 
         $enviado = mail($para, $titulo, $mensaje, $cabecera);
 
@@ -31,11 +34,18 @@
             echo "<h1>Mensaje enviado.</h1>";
             echo "</div>";
             echo "</div>";
+        }else
+        {
+            echo "<div class='row'>";
+            echo "<div class='col'>";
+            echo "<h1>Error de envío.</h1>";
+            echo "</div>";
+            echo "</div>";
         }
 
         ?>
     
-      
+      <a class="btn btn-warning" href="/index.php">Volver</a>
        
 
     </div>
